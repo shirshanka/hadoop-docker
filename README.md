@@ -1,8 +1,12 @@
 # hadoop-docker
-A repository to build docker images for Hadoop
+A repository to build docker images for Hadoop. 
 
-Configurable Hadoop Version: Tried with 2.7.7 and 2.8.5
-# Configure Hadoop Version (Optional) // Default is 2.8.5
+## Provenance
+Heavily copied from [Sequence-iq/hadoop-docker](https://github.com/sequenceiq/hadoop-docker) to start off. It will probably evolve significantly over time, hence not doing a direct "fork". 
+
+# Configure Hadoop Version (Optional)
+The Hadoop version is configurable. The maintainer has tried it with 2.7.7 and 2.8.5 currently.
+The current default is 2.8.5
 ```
 export DOCKER_HADOOP_VERSION=2.7.7
 ```
