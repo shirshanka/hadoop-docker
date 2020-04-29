@@ -3,6 +3,9 @@ A repository to build docker images for Hadoop.
 
 ## Provenance
 Heavily copied from [Sequence-iq/hadoop-docker](https://github.com/sequenceiq/hadoop-docker) to start off. It will probably evolve significantly over time, hence not doing a direct "fork". 
+Differences from the origin:
+* Java-8 (openjdk)
+* No support for native libraries
 
 # Configure Hadoop Version (Optional)
 The Hadoop version is configurable. The maintainer has tried it with 2.7.7 and 2.8.5 currently.
